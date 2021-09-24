@@ -1,11 +1,9 @@
-import React from 'react';
+import { StyledHeader } from './styles/Header.styled';
 
-const Header = () => {
+export default function Header() {
   return (
-    <Header>
+    <StyledHeader>
       <h1>Hubble</h1>
-    </Header>
+    </StyledHeader>
   );
-};
-
-export default Header;
+}
