@@ -23,7 +23,7 @@ export default function Header() {
               Get Started For Free
             </Button>
           </div>
-          <Image src=''></Image>
+          <Image src='./images/screen-mockups.svg' alt='' />
         </Flex>
       </Container>
     </StyledHeader>
