@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 
+export const HeroContainer = styled.div`
+  max-width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
+`;
+
 export const StyledHeader = styled.header`
-  background-color: ${({ theme }) => theme.colors.header};
+  background-color: ${({ theme }) => theme.colors.body};
   padding: 40px 0;
 `;
 
