@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+///refactor and place in hero styles?
 export const HeroContainer = styled.div`
   max-width: 100%;
   padding: 0 40px;
