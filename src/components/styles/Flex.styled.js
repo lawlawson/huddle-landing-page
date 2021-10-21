@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const Flex = styled.div`
-  display: flex;
+  display: block;
   align-items: center;
+  width: 100%;
 
   & > div,
   & > ul {
