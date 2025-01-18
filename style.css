@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -16,18 +20,31 @@ body {
 }
 
 /* 5. Improve media defaults */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
 /* 6. Inherit fonts for form controls */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* 7. Avoid text overflows */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
@@ -35,13 +52,60 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
   text-wrap: pretty;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-wrap: balance;
 }
 
 /*
   9. Create a root stacking context
 */
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
+}
+
+:root {
+  --primary-clr: hsl(322, 100%, 66%);
+  --neutral-1: hsl(193, 100%, 96%);
+  --neutral-2: hsl(192, 100%, 9%);
+  --neutral-3: hsl(208, 11%, 55%);
+
+  --fs: 18px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(/images/bg-hero-desktop.svg);
+}
+
+.hero-layout {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.try-button {
+  background-color: #fff;
+  color: #000;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mockup-image {
+  width: 600px;
 }
