@@ -221,3 +221,38 @@ header {
   margin-top: 15px;
   color: var(--neutral-3);
 }
+
+/* Your Users */
+.your-users {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--neutral-3);
+  padding: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.users-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 45%;
+}
+
+.your-users img {
+  width: 300px;
+}
+
+.your-users h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.your-users p {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fs);
+  margin-top: 15px;
+  color: var(--neutral-3);
+}
