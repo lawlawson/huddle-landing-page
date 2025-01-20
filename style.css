@@ -158,7 +158,6 @@ header {
   display: flex;
   border-radius: 10px;
   box-shadow: 0 0 10px var(--neutral-3);
-  /* border: 10px solid var(--neutral-3); */
   padding: 80px;
   align-items: center;
   justify-content: space-between;
@@ -191,8 +190,34 @@ header {
 .flowing-conversations {
   display: flex;
   flex-direction: row-reverse;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--neutral-3);
+  padding: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flowing-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 45%;
 }
 
 .flowing-conversations img {
   width: 300px;
+}
+
+.flowing-conversations h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.flowing-conversations p {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fs);
+  margin-top: 15px;
+  color: var(--neutral-3);
 }
