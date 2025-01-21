@@ -295,6 +295,7 @@ Footer {
   background-color: var(--neutral-2);
   color: #fff;
   display: flex;
+  justify-content: space-between;
   padding: 250px 200px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -307,6 +308,45 @@ Footer {
 }
 
 .location-text {
-  margin: 20px 0;
+  margin-bottom: 20px;
   width: 200px;
 }
+
+.tel-num:before {
+  content: url(/images/icon-phone.svg);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 50px;
+}
+
+.tel-num {
+  margin-bottom: 20px;
+}
+
+.email-add:before {
+  content: url(/images/icon-email.svg);
+  margin-right: 20px;
+  width: 50px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links p {
+  margin: 20px 0;
+}
+
+.links-left {
+  margin-right: 150px;
+}
+
+.social i {
+  margin-right: 20px;
+}
+
+.social p {
+  margin-top: 300px;
+}
+
+/* Links styling */
