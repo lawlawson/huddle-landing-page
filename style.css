@@ -294,4 +294,19 @@ header {
 Footer {
   background-color: var(--neutral-2);
   color: #fff;
+  display: flex;
+  padding: 250px 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.location-text:before {
+  content: url('/images/icon-location.svg');
+  margin-right: 20px;
+  width: 50px;
+}
+
+.location-text {
+  margin: 20px 0;
+  width: 200px;
 }
