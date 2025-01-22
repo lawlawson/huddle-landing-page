@@ -302,10 +302,6 @@ a {
   color: #fff;
 }
 
-/* .social a {
-  color: #fff;
-} */
-
 .start-btn {
   cursor: pointer;
 }
@@ -326,7 +322,137 @@ p {
   padding-bottom: 50px;
 }
 
-/* About Media Queries */
+/* Home Page Media Queries */
+
+/* Base styles (Desktop First Approach) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-text {
+  width: 50%;
+}
+
+.header-mockup img {
+  max-width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Tablet Screens (up to 768px) */
+@media (max-width: 768px) {
+  .hero-layout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-text {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .header-mockup {
+    width: 100%;
+    text-align: center;
+  }
+
+  .grow-together,
+  .flowing-conversations,
+  .your-users {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grow-together img,
+  .flowing-conversations img,
+  .your-users img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .footer-links div {
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile Screens (up to 480px) */
+@media (max-width: 480px) {
+  header img {
+    width: 150px;
+  }
+
+  .hero-layout {
+    padding: 10px;
+  }
+
+  .header-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-text p {
+    font-size: 1rem;
+  }
+
+  .start-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .grow-together img,
+  .flowing-conversations img,
+  .your-users img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .social i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+}
+
+/* About Us Media Queries */
 
 /* For Tablet Devices (up to 768px) */
 @media (max-width: 768px) {
