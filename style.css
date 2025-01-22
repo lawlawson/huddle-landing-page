@@ -37,6 +37,10 @@ header {
   padding: 60px;
 }
 
+header a {
+  cursor: pointer;
+}
+
 .try-button {
   background-color: #fff;
   color: #000;
@@ -288,3 +292,36 @@ Footer {
 }
 
 /* Links styling */
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social a {
+  color: #fff;
+}
+
+.start-btn {
+  cursor: pointer;
+}
+
+/* About Us */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.text-container {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
