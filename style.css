@@ -193,45 +193,6 @@ header a {
   color: var(--neutral-3);
 }
 
-/* Community */
-.community {
-  display: block;
-  border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 0 0 10px var(--neutral-3);
-  padding: 80px;
-  margin: 0 auto;
-  text-align: center;
-  width: 70%;
-  position: absolute;
-  bottom: -500px; /* Adjust the value to control the overlap */
-  left: 0;
-  right: 0;
-  z-index: 1; /* Ensure it appears above the footer */
-}
-
-.community h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  position: relative;
-}
-
-.community button {
-  background-color: var(--primary-clr);
-  position: relative;
-  color: #fff;
-  box-shadow: 2px 2px 2px 1px var(--neutral-3);
-  border: none;
-  width: 500px;
-  padding: 30px 40px;
-  border-radius: 50px;
-  font-weight: bold;
-  margin-top: 30px;
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-}
-
 /* Footer */
 Footer {
   background-color: var(--neutral-2);
@@ -320,6 +281,130 @@ p {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+
+/* Contact Us Page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header img {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+.contact-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-form h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #555;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button.submit-btn {
+  background-color: var(--primary-clr);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  /* background: #f4f4f4; */
+  padding: 20px;
+  text-align: center;
+}
+
+.social i {
+  margin: 0 10px;
+}
+
+/* Media Queries */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .contact-form h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  header img {
+    width: 150px;
+  }
+
+  .contact-form h1 {
+    font-size: 1.8rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  button.submit-btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
 }
 
 /* Home Page Media Queries */
