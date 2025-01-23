@@ -384,6 +384,16 @@ footer {
   footer {
     text-align: center;
   }
+
+  .grow-text {
+    width: 100%;
+  }
+  .flowing-text {
+    width: 100%;
+  }
+  .users-text {
+    width: 100%;
+  }
 }
 
 /* Mobile (480px and below) */
@@ -404,6 +414,16 @@ footer {
   button.submit-btn {
     font-size: 0.9rem;
     padding: 8px 15px;
+  }
+
+  .grow-text {
+    width: 100%;
+  }
+  .flowing-text {
+    width: 100%;
+  }
+  .users-text {
+    width: 100%;
   }
 }
 
