@@ -258,13 +258,22 @@ a {
   text-decoration: none;
 }
 
-.social a:link {
-  text-decoration: none;
-  color: #fff;
-}
-
 .start-btn {
   cursor: pointer;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--primary-clr);
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
 }
 
 /* About Us */
