@@ -2,6 +2,7 @@
 
 :root {
   --primary-clr: hsl(322, 100%, 66%);
+  --secondary-clr: hsl(322, 79%, 57%);
   --neutral-1: hsl(193, 100%, 96%);
   --neutral-2: hsl(192, 100%, 9%);
   --neutral-3: hsl(208, 11%, 55%);
@@ -72,12 +73,16 @@ header a {
 .header-text button {
   background-color: var(--primary-clr);
   color: #fff;
-  box-shadow: 2px 2px 2px 1px var(--primary-clr);
+  box-shadow: 2px 2px 2px 1px var(--secondary-clr);
   border: none;
   width: 250px;
   padding: 10px 20px;
   border-radius: 20px;
   font-weight: bold;
+}
+
+.header-text button:hover {
+  background-color: var(--secondary-clr);
 }
 
 .header-mockup {
@@ -357,16 +362,18 @@ textarea {
 
 button.submit-btn {
   background-color: var(--primary-clr);
-  color: white;
-  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 2px 2px 2px 1px var(--secondary-clr);
   border: none;
-  border-radius: 5px;
-  font-size: 1rem;
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
   cursor: pointer;
 }
 
 button.submit-btn:hover {
-  background-color: #45a049;
+  background-color: var(--secondary-clr);
 }
 
 /* Footer Styles */
@@ -374,8 +381,6 @@ button.submit-btn:hover {
 .social i {
   margin: 0 10px;
 }
-
-/* Media Queries */
 
 /* Tablet (768px and below) */
 @media (max-width: 768px) {
@@ -544,7 +549,11 @@ body {
   }
 
   footer {
-    padding: 10px;
+    padding-top: 50px;
+  }
+
+  .social a {
+    margin: 0 8px;
   }
 
   .social i {
@@ -555,7 +564,6 @@ body {
 
 /* About Us Media Queries */
 
-/* For Tablet Devices (up to 768px) */
 @media (max-width: 768px) {
   .text-container {
     padding: 10px;
@@ -605,7 +613,7 @@ body {
   }
 
   footer {
-    padding: 10px;
+    padding-top: 100px;
   }
 
   .footer-contact {
@@ -615,12 +623,6 @@ body {
 
   .footer-links {
     font-size: 0.9rem;
-  }
-
-  .social {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
   }
 
   .social i {
