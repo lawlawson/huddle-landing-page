@@ -199,7 +199,9 @@ Footer {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 250px 200px;
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
@@ -368,11 +370,6 @@ button.submit-btn:hover {
 }
 
 /* Footer Styles */
-footer {
-  /* background: #f4f4f4; */
-  padding: 20px;
-  text-align: center;
-}
 
 .social i {
   margin: 0 10px;
@@ -388,10 +385,6 @@ footer {
 
   form {
     padding: 10px;
-  }
-
-  footer {
-    text-align: center;
   }
 
   .grow-text {
@@ -467,12 +460,6 @@ body {
 
 .header-mockup img {
   max-width: 100%;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
 }
 
 /* Tablet Screens (up to 768px) */
