@@ -32,11 +32,11 @@ You can view the project live [here](https://lawlawson.github.io/huddle-landing-
 
 ### Desktop View
 
-("./images/desktop.png")
+![](./images/desktop.png)
 
 ### Mobile View
 
-("./images/mobile.png")
+![](./images/mobile.png)
 
 ---
 
