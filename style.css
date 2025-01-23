@@ -127,7 +127,7 @@ header a {
   color: var(--neutral-3);
 }
 
-/* Flowing conversations */
+/* Flowing conversations section */
 .flowing-conversations {
   display: flex;
   flex-direction: row-reverse;
@@ -163,7 +163,7 @@ header a {
   color: var(--neutral-3);
 }
 
-/* Your Users */
+/* Your Users section */
 .your-users {
   display: flex;
   margin-top: 5px;
@@ -198,7 +198,7 @@ header a {
   color: var(--neutral-3);
 }
 
-/* Footer */
+/* Footer section*/
 Footer {
   background-color: var(--neutral-2);
   color: #fff;
@@ -259,7 +259,6 @@ Footer {
   margin-top: 300px;
 }
 
-/* Links styling */
 a {
   cursor: pointer;
   text-decoration: none;
@@ -283,7 +282,7 @@ footer a:visited {
   text-decoration: none;
 }
 
-/* About Us */
+/* About Us page */
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -299,7 +298,7 @@ p {
   padding-bottom: 50px;
 }
 
-/* Contact Us Page */
+/* Contact Us page */
 
 body {
   font-family: Arial, sans-serif;
@@ -376,13 +375,10 @@ button.submit-btn:hover {
   background-color: var(--secondary-clr);
 }
 
-/* Footer Styles */
-
 .social i {
   margin: 0 10px;
 }
 
-/* Tablet (768px and below) */
 @media (max-width: 768px) {
   .contact-form h1 {
     font-size: 2rem;
@@ -403,7 +399,6 @@ button.submit-btn:hover {
   }
 }
 
-/* Mobile (480px and below) */
 @media (max-width: 480px) {
   header img {
     width: 150px;
@@ -434,9 +429,6 @@ button.submit-btn:hover {
   }
 }
 
-/* Home Page Media Queries */
-
-/* Base styles (Desktop First Approach) */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -467,7 +459,6 @@ body {
   max-width: 100%;
 }
 
-/* Tablet Screens (up to 768px) */
 @media (max-width: 768px) {
   .hero-layout {
     flex-direction: column;
@@ -518,7 +509,6 @@ body {
   }
 }
 
-/* Mobile Screens (up to 480px) */
 @media (max-width: 480px) {
   header img {
     width: 150px;
@@ -595,7 +585,6 @@ body {
   }
 }
 
-/* For Mobile Devices (up to 480px) */
 @media (max-width: 480px) {
   header img {
     width: 150px;
