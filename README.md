@@ -2,6 +2,8 @@
 
 This is a responsive landing page for **Huddle**, designed to showcase the platform's mission to build and nurture online communities. The page includes sections such as a hero area, feature highlights, and a contact form, and is fully responsive for desktop, tablet, and mobile devices.
 
+This project was inspired by: https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100
+
 ---
 
 ## Features
